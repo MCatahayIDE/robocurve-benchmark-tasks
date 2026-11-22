@@ -1,0 +1,21 @@
+{
+  "title": "Seat a pinned brass chime cylinder in a walnut music box well and close its maple resonator lid",
+  "category": "Impact on jobs",
+  "keywords": [
+    "horology",
+    "music box",
+    "chime cylinder",
+    "resonator lid",
+    "bimanual assembly",
+    "precedence"
+  ],
+  "instruction": "Seat the brass chime cylinder upright inside the walnut music box movement well, then close the maple resonator lid flat across the case rim.",
+  "context": "Assembling mechanical music boxes and clockwork chime movements requires seating the pinned brass cylinder inside the movement well before closing the acoustic resonator lid over the housing rim (precision instrument and equipment repairers, O*NET 49-9069.00). Physics enforces the assembly order: closing the resonator lid first blocks access to the movement well, and leaving the 20 mm tall brass cylinder cocked on the 34 mm case rim props the lid 20 mm proud and tilts it past 14 degrees.",
+  "setup": "Table coordinates in metres: x forward from the line through the two arm bases, y left from the midline, z up from the table top; the arm bases are at y = +0.305 (left) and y = -0.305 (right). The music box movement well centre F is (0.250, 0.000), on the midline. Loose, rigid, matte: the pinned brass chime cylinder (cylinder), a gold brass (sRGB 0.85, 0.68, 0.20) cylinder 46 mm diameter x 20 mm tall, 95 g, standing upright on the left side of the table at (0.220, 0.300); the maple resonator lid (lid), a warm maple (sRGB 0.76, 0.52, 0.30) rectangular plate 82 x 64 x 12 mm, 60 g, lying flat on the right side of the table at (0.220, -0.300) with its 82 mm long axis along y. Fixed, matte, 7 blocks forming the open-top walnut music box housing on F: a central brass movement bedplate 54 x 54 x 14 mm at (0.250, 0.000, TOP + 0.007) whose top is 14 mm above the table, surrounded by four walnut case walls (sRGB 0.36, 0.20, 0.11) 34 mm tall and 12 mm thick—four corner wall segments 21 x 12 x 34 mm at (0.2215, +-0.033) and (0.2785, +-0.033) leaving 36 mm central finger-relief notches on the left and right sides, plus front and rear walls 12 x 54 x 34 mm at (0.217, 0.000) and (0.283, 0.000)—forming a 54 x 54 mm inner well (4 mm radial clearance around the 46 mm cylinder) and a 78 x 78 mm outer rim 34 mm above the table. Nominal end state: the brass cylinder centred on F inside the well resting upright on the 14 mm bedplate with its top flush with the 34 mm walnut case rim, and the maple resonator lid centred on F with its 82 mm long axis along x resting flat across the 34 mm rim.",
+  "scoring": "End state only, judged after both arms have withdrawn and all bodies are at rest (linear speed under 10 mm/s and angular speed under 0.5 rad/s). Cylinder seated (P): upright (axis within 3 degrees of vertical) with its centre within 4.5 mm of F in x and y, bottom within 2 mm of the 14 mm bedplate top, and top within 2 mm of the 34 mm case rim. Resonator lid closed (L): flat (all four bottom corners within 2 mm of the 34 mm case rim and all four top corners within 2 mm of 46 mm), centre within 4 mm of F in x and y, and long axis within 5 degrees of x either way round. Score: 0.0 without P regardless of lid position; 0.5 for P alone; 1.0 for P and L together. Success, which ends the trial, is the 1.0 condition held continuously for 1.0 s.",
+  "run_limit": "2,400 steps (2 minutes at 20 Hz)",
+  "reset_notes": "Nothing is consumed. Lift the maple lid off and lay it flat on its start mark at (0.220, -0.300) with its long axis along y; lift the brass cylinder out of the movement well and stand it upright on its start mark at (0.220, 0.300). The walnut music box case does not move.",
+  "fidelity": "Approximate: rigid cylinder and box primitives with shared friction and matte colours; the walnut housing walls and brass bedplate are fixed colliders standing in for one open-top music box case. A real mechanical music box turns a pinned cylinder against a tuned steel comb beneath a hinged glass or wood dust cover; here the brass cylinder seats flush in the movement well and the loose maple resonator lid closes flat across the housing rim under gravity. Earth gravity on a bench.",
+  "scores": "Dream-1 run: 0.0; demo: 1.0",
+  "media": "M-J3WPJL"
+}
